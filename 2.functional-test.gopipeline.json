@@ -10,7 +10,8 @@
       "stage": "build"
     },
     {
-      "url": "https://github.com/adityasood/gocd-demo-config-repo-code",
+      "url": "https://github.com/adityasood/gocd-demo-config-repo-json.git",
+      "branch": "testBranch",
       "type": "git",
       "name": "code"
     }
