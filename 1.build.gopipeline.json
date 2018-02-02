@@ -27,7 +27,7 @@
       "source": "",
       "destination": "",
       "type": "build"
-    },
+    }],
           "properties": [],
           "run_instance_count": null,
           "timeout": 10,
