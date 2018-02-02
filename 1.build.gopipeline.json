@@ -14,7 +14,7 @@
       "name": "build",
       "fetch_materials": true,
       "never_cleanup_artifacts": false,
-      "clean_working_directory": false,
+      "clean_working_directory": true,
       "environment_variables": [],
       "jobs": [
         {
@@ -22,7 +22,12 @@
           "environment_variables": [],
           "tabs": [],
           "resources": [],
-          "artifacts": [],
+          "artifacts": [
+    {
+      "source": "",
+      "destination": "",
+      "type": "test"
+    }
           "properties": [],
           "run_instance_count": null,
           "timeout": 10,
