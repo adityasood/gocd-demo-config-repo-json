@@ -24,7 +24,7 @@
           "resources": [],
           "artifacts": [
     {
-      "source": "",
+      "source": "abc.txt",
       "destination": "",
       "type": "build"
     }],
