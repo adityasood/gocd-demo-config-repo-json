@@ -7,7 +7,13 @@
       "url": "https://github.com/adityasood/gocd-demo-config-repo-code.git",
       "branch": "testBranch",
       "type": "git"
-    }
+    },
+    {
+  "pipeline": "DanskeBankPipeline",
+  "stage": "Stage1",
+  "name": "pipe2",
+  "type": "dependency"
+}
   ],
   "stages": [
     {
