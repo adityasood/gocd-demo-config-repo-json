@@ -6,6 +6,7 @@
     {
       "url": "https://github.com/adityasood/gocd-demo-config-repo-code.git",
       "branch": "testBranch",
+      "name": "gitMaterial1",
       "type": "git"
     },
     {
