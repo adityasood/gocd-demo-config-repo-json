@@ -55,7 +55,7 @@
         {
           "name": "test",
           "environment_variables": [{"name":"EMPTY_ENV",
-                                    "value":""}],
+                                    "value":}],
           "tabs": [],
           "resources": [],
           "artifacts": [],
