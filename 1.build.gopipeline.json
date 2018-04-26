@@ -8,13 +8,7 @@
       "branch": "master",
       "name": "gitMaterial1",
       "type": "git"
-    },
-    {
-  "pipeline": "DanskeBankPipeline",
-  "stage": "Stage1",
-  "name": "pipe2",
-  "type": "dependency"
-}
+    }
   ],
   "stages": [
     {
