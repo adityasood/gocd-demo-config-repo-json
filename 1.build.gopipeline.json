@@ -60,7 +60,8 @@
       "jobs": [
         {
           "name": "test",
-          "environment_variables": [{"EMPTY_ENV":""}],
+          "environment_variables": [{"name":"EMPTY_ENV",
+                                    "value":}],
           "tabs": [],
           "resources": [],
           "artifacts": [],
