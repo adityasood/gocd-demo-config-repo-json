@@ -54,8 +54,7 @@
       "jobs": [
         {
           "name": "test",
-          "environment_variables": [{"name":"EMPTY_ENV",
-                                    "value":}],
+          "environment_variables": [{"name":"EMPTY_ENV"}],
           "tabs": [],
           "resources": [],
           "artifacts": [],
