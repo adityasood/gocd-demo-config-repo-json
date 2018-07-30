@@ -68,8 +68,8 @@
               "on_cancel" : null,
               "command": "bash",
               "arguments": [
-                "echo 'hello world'",
-                "."
+                "-c",
+                "echo hello"
               ],
               "working_directory": null
             }
