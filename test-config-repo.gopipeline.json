@@ -1,0 +1,81 @@
+{
+  "name": "test-config-repo",
+  "environment_variables": [],
+  "group" : "demo",
+  "materials": [
+    {
+      "url": "https://github.com/adityasood/gocd-demo-config-repo-code.git",
+      "branch": "master",
+      "name": "gitMaterial1",
+      "type": "git"
+    }
+  ],
+  "stages": [
+    {
+      "name": "build",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": true,
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "build",
+          "environment_variables": [],
+          "tabs": [],
+          "resources": [],
+          "artifacts": [
+    {
+      "source": "touch-this-file.txt",
+      "destination": "",
+      "type": "build"
+    }],
+          "properties": [],
+          "run_instance_count": null,
+          "timeout": 10,
+          "tasks": [
+            {
+              "type": "exec",
+              "run_if": "passed",
+              "on_cancel" : null,
+              "command": "./build.sh",
+              "arguments": [],
+              "working_directory": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": false,
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "test",
+          "environment_variables": [{"name":"EMPTY_ENV"}],
+          "tabs": [],
+          "resources": [],
+          "artifacts": [],
+          "properties": [],
+          "run_instance_count": null,
+          "timeout": 0,
+          "tasks": [
+            {
+              "type": "exec",
+              "run_if": "passed",
+              "on_cancel" : null,
+              "command": "bash",
+              "arguments": [
+                "-c",
+                "echo hello"
+              ],
+              "working_directory": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
