@@ -29,7 +29,10 @@
           "environment_variables": [],
           "tabs": [],
           "resources": [],
-          "artifacts": [],
+          "artifacts": [{
+  "source": "src",
+  "type": "test"
+}],
           "properties": [],
           "run_instance_count": null,
           "timeout": 0,
