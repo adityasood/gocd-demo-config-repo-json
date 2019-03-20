@@ -6,7 +6,7 @@
     {
       "type": "dependency",
       "name": "build",
-      "pipeline": "yamlpipe1",
+      "pipeline": "yamlpipe4",
       "stage": "build"
     },
     {
